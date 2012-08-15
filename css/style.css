@@ -45,8 +45,12 @@ h1 {
 	margin: 5px 0;
 	padding: 0;
 }
+.art-publisher{
+	margin-bottom: 10px;
+}
 #article {
 	display: inline-block;
+	clear: left;
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 0;
@@ -62,7 +66,7 @@ h1 {
 	left: -10px;
 	list-style-type: none;
 	padding: 0 0 10px 0;
-	margin: 5px 0;
+	margin: 10px 0;
 }
 #breadcrumbs li {
 	float: left;
@@ -72,11 +76,37 @@ h1 {
 }
 .art-actions  {
 	list-style-type: none;
+	margin: 10px 0 0 10px;
 }
 .art-actions li {
-	float: left;
 	list-style:none;
-	padding: 0 0 0 12px;
+	float: left;
+	display: inline-block;
+	padding: 0 10px 0 20px;
+	margin: 0 0 0 5px;
+}
+#act-post {
+	background: url('../images/sprites.png') 0px -480px no-repeat;
+	border-right: 1px solid #000;
+}
+#act-email {
+	background: url('../images/sprites.gif') 0px -254px no-repeat;
+	border-right: 1px solid #000;
+}
+#act-print {
+	background: url('../images/sprites.gif') 0px -300px no-repeat;
+	border-right: 1px solid #000;
+}
+#act-share {
+	background: url('../images/sprites.gif') 0px -345px no-repeat;
+	border-right: 1px solid #000;
+}
+#act-lrgtype {
+	background: url('../images/sprites.gif') 0px -390px no-repeat;
+}
+#pic-zoom {
+	background: url('../images/sprites.gif') 0px -390px no-repeat;
+	padding-left: 20px;
 }
 /* Fonts */
 #breadcrumbs {
@@ -109,4 +139,10 @@ h1 {
 }
 .art-actions  a {
 	color: #000;
+}
+.art-upddate {
+	color: #666666;
+}
+.art-pubdate {
+	color: #666666;
 }
