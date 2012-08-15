@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#breadcrumbs {
+	list-style-type: none;
+}
+#breadcrumbs li {
+	float: left;
+}
+.art-actions  {
+	list-style-type: none;
+}
+.art-actions li {
+	float: left;
+	list-style:none;
+	padding: 0 0 0 12px;
+}
+
