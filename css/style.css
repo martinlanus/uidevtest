@@ -82,27 +82,34 @@ h1 {
 	list-style:none;
 	float: left;
 	display: inline-block;
+}
+.art-actions a {
 	padding: 0 10px 0 20px;
-	margin: 0 0 0 5px;
 }
 #act-post {
-	background: url('../images/sprites.png') 0px -480px no-repeat;
+	background: url('../images/sprites.gif') 0px -480px no-repeat;
 	border-right: 1px solid #000;
 }
 #act-email {
 	background: url('../images/sprites.gif') 0px -254px no-repeat;
 	border-right: 1px solid #000;
+	margin-left: 10px;
 }
 #act-print {
 	background: url('../images/sprites.gif') 0px -300px no-repeat;
 	border-right: 1px solid #000;
+	margin-left: 10px;
+
 }
 #act-share {
 	background: url('../images/sprites.gif') 0px -345px no-repeat;
 	border-right: 1px solid #000;
+	margin-left: 10px;
+
 }
 #act-lrgtype {
 	background: url('../images/sprites.gif') 0px -390px no-repeat;
+	margin-left: 10px;
 }
 #pic-zoom {
 	background: url('../images/sprites.gif') 0px -390px no-repeat;
